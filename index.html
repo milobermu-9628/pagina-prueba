@@ -1,32 +1,98 @@
 <!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Mi Página de Prueba</title>
+    <meta name="description" content="Una página HTML de ejemplo para practicar.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
+    <style>
+        body {
+            font-family: Arial, sans-serif, Helvetica;
+            margin: 20px;
+            background-color: #000000;
+            color: #ffffff;
+            text-align: center;
+        }
 
-        
+        nav {
+            margin-bottom: 20px;
+            font-size: 18px;
+            font-weight: bold;
+            background-color: #333333;
+            padding: 10px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(255, 179, 179, 0.2);
+            display: inline-block;
+            width: 100%;
+            text-align: center;
 
-    </head>
-    <body>
+        }
+        nav a {
+            margin-left: 50px;
+            margin-right: 50px;
+            text-decoration: none;
+            color: #ffb3b3;
+        }
+        h1 {
+            color:white;
+        }
+        p {
+            font-size: 16px;
+            color: #cec9c9;
+        }
+        img {
+            display: block;
+            margin: 20px 0;
+            border: 2px solid #ffb3b3;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(255, 179, 179, 0.2);
+            transition: transform 0.3s;
+        }
+        footer {
+            margin-top: 40px;
+            font-size: 14px;
+            color: #cc9090;
+            text-align: center;
+            border-top: 1px solid #25bd46;
+            padding-top: 10px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            box-shadow: #cec9c9 0px 0px 10px;
+        }
+    </style>
+</head>
+<body>
 
-       <h1>Hola Mundo</h1>
+    <nav>
+        <a href="#inicio">Inicio</a>
+        <a href="#sobre-mi">Sobre mí</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
 
-        <h1>¡Bienvenido a mi página web!</h1>
-  <p>Esta es una página HTML muy básica creada como ejemplo.</p>
+    <li>
+        <a href="https://www.google.com">Ir a Google</a>
+    </li>
 
-<img src="imagenbes/f64c63de612f3932ce66fad0f0afd10a.jpg" alt="Carta" width="300" height="450"> </img>
+    <h1>¡Bienvenido a mi página web!</h1>
+    <h2>Hola Mundo</h2>
+
+    <p>Esta es una página HTML muy básica creada como ejemplo.</p>
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100vh;">
+    <img src="imagenbes/f64c63de612f3932ce66fad0f0afd10a.jpg" alt="Carta" width="300" height="450" />
+</div>
+
+<div>
+    <img src="imagenbes/9b90d41a5efa072a634f207799f9b58d.jpg" alt="Carta2" width="300" height="450" />
+</div>
+
+    <h2>Esta es una página de prueba</h2>
 
 
-<h2> Esta es una pagina de prueba </h2>
+    <footer >Todos los derechos reservados</footer>
 
-<footer> Todos los derechos reservados </footer>
-        
-        
-        <script src="" async defer></script>
-    </body>
+</body>
 </html>
